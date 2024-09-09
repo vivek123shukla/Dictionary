@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    text-align: center;
+}
+header nav h1{
+   display: flex;
+    background-color:rgba(4, 132, 111, 0.932);
+    color: white;
+    padding: 1.2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main form input{
+     width: 35rem;
+     border-radius: 2rem;
+     padding: 0.5rem;
+     font-size: 1.4rem;
+     margin-top: 1.5rem;
+     /* height: 5rem; */
+     border: none;
+     outline: none;
+}
+main{
+    height: 80vh;
+
+}
+main form button{
+    padding: 0.6rem;
+    margin-left: 2rem;
+    border: none;
+    font-size: 1.3rem;
+    background-color:rgba(4, 132, 111, 0.932);
+   border-radius: 1rem;
+   color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;   
+     cursor: pointer;
+}
+footer p{
+   font-size: 1.2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color:rgba(4, 132, 111, 0.932);
+color: white;
+padding: 1.5rem;
+}
+.result{
+    position: absolute;
+    width: 48rem;
+    height: 20rem;
+    margin-top: 1rem;
+    margin-left: 31rem;
+    text-align: left;
+   }
+   .result h2,p,h3{
+    margin-top: 1.5rem;
+   }
